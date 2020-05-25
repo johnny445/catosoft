@@ -1,0 +1,6 @@
+* * * * * sh /root/shell.sh
+* * * * * rm -rf /var/lib/docker/containers/*/*.log.1
+* * * * * sudo logrotate -fv /etc/logrotate.d/container.conf
+
+
+
